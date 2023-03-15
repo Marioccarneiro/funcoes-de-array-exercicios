@@ -10,8 +10,8 @@ const produtos = [
     { nome: "Berinjela kg", categoria: "Hortifruti", preco: 8.99 },
     { nome: "Sabão em Pó", categoria: "Limpeza", preco: 10.80 }
  ]
- 
- //1 
+
+//1 
 
 const arrayProdutosLimpeza = produtos.filter((elemento, indice, array) => {
     return elemento.categoria === `Limpeza`
@@ -27,3 +27,4 @@ const nomesProdutos = arrayProdutosLimpeza.map((elemento, indice, array) => {
 })
 
 console.log(nomesProdutos)
+
